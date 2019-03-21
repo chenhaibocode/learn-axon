@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    password: 123456
+    sql-script-encoding: UTF-8
+    driverClassName: com.mysql.jdbc.Driver
+    validation-query: SELECT 1;
+    initial-size: 2
+    url: jdbc:mysql://10.33.108.63:6606/uc?characterEncoding=UTF-8
+    username: qa
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+mongodb:
+  dbname: mydb
+  port: 27017
+  events:
+    collection:
+      name: events
+    snapshot:
+      collection:
+        name: snapshots
+  url: 127.0.0.1
