@@ -11,11 +11,11 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.chenhaibo.learn"})
-@EntityScan(basePackages = {"com.edi.learn",
+@EntityScan(basePackages = {"com.chenhaibo.learn",
         "org.axonframework.eventsourcing.eventstore.jpa",
         "org.axonframework.eventhandling.saga.repository.jpa",
         "org.axonframework.eventhandling.tokenstore.jpa"})
-@EnableJpaRepositories(basePackages = {"com.chenhaibo.learn.query.*"})
+@EnableJpaRepositories(basePackages = {"com.chenhaibo.learn.query"})
 public class Application {
 
     private static final Logger LOGGER = getLogger(Application.class);
