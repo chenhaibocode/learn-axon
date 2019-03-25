@@ -1,0 +1,10 @@
+mongodb:
+  dbname: mydb
+  port: 27017
+  events:
+    collection:
+      name: events
+    snapshot:
+      collection:
+        name: snapshots
+  url: 127.0.0.1

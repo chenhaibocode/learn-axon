@@ -8,6 +8,7 @@
         <module>learn-axon-2</module>
         <module>learn-axon-3</module>
         <module>learn-axon-4</module>
+        <module>learn-axon-5</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
